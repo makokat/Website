@@ -1,0 +1,76 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+
+  min-height: 100vh;
+  align-items: center;
+}
+
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+
+  max-width: 60ch;
+  width: 60ch;
+
+  margin: 0 auto;
+}
+
+.about-me {
+  padding: 1em;
+  border: 2px solid white;
+  border-radius: 1em;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header aside {
+  display: flex;
+  flex-direction: column;
+
+  max-width: 50%;
+}
+
+main {
+  flex: 1;
+}
+
+footer {
+  margin-top: 1em;
+  text-align: center;
+}
+
+.hero-image {
+  height: 10rem;
+  border-radius: 6px;
+}
+
+section + section {
+  margin-top: 0.5em;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  margin-bottom: 1em;
+}
+
+p {
+  margin: 0.5em 0;
+}
+
+.webring-container {
+  margin-top: 1em;
+}
